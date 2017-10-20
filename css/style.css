@@ -9,7 +9,21 @@ header {
 }
 
 .main_nom {
+  margin-bottom: 0;
+}
 
+.main_menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fleche {
+  display: inline;
+  float: right;
+  font-size: 50px;
+  /*padding-top: 10px;*/
+  align-items: center;
+  padding-right: 20px;
 }
 
 .mainc {
@@ -47,10 +61,6 @@ header li:hover {
 }
 header li a:hover {
   color: #fff;
-}
-
-img {
-
 }
 
 header li a {
