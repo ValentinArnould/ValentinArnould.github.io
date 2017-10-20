@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  //position: fixed;
+  background-color: #ff8000;
+}
+
+.main_nom {
+
+}
+
+.mainc {
+  margin-top: 5%;
+  width: 50%;
+}
+
+.titres {
+  display: flex;
+  align-items: center;
+}
+
+
+.imgmoa {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.mainc .col {
+
+}
+
+header ul li {
+
+}
+
+header li {
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+
+header li:hover {
+  background-color: #000;
+  transition: 1s all;
+}
+header li a:hover {
+  color: #fff;
+}
+
+img {
+
+}
+
+header li a {
+  color: black;
+  font-weight: bold;
+}
+
+header ul {
+  padding-left: 0;
+}
+
+.list-no-style {
+  list-style: none;
+}
+
+.list-no-style li a {
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.half-size {
+  width: 50%;
+}
+
+.min-size-small {
+  min-width: 300px;
+}
+
+.section-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media screen and (max-width : 800px) {
+  .flex-container {
+    padding-top: 1%;
+  }
+
+  .section-container {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+}
