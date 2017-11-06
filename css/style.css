@@ -64,6 +64,31 @@ header {
   opacity: 0;
 }
 
+.secteur {
+  transition: 1s;
+  position: relative;
+  top: -100%;
+  /*left: 0%;*/
+/*width: 500px;*/
+  opacity: 0;
+}
+.interets {
+  transition: 1s;
+  position: relative;
+  top: -100%;
+  /*left: 33%;
+/*width: 500px;*/
+  opacity: 0;
+}
+.qualites {
+  transition: 1s;
+  position: relative;
+  top: -100%;
+  /*left:66%;
+/*width: 500px;*/
+  opacity: 0;
+}
+
 
 .imgmoa {
   max-width: 100%;
