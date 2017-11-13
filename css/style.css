@@ -113,6 +113,11 @@ header li:hover {
   background-color: #000;
   transition: 1s all;
 }
+
+header p:hover {
+  /*rien*/
+}
+
 header li a:hover {
   color: #fff;
 }
